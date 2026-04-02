@@ -1,0 +1,234 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.streamcast.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:5:5-76
+12-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:5:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:6:5-79
+13-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+14-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:7:5-86
+14-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:7:22-83
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:8:5-79
+15-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:9:5-81
+16-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:10:5-77
+17-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:10:22-74
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-cast-framework:21.4.0] /Users/nickmaukan/.gradle/caches/transforms-4/dd8a82fd64316e4157c4f1e041062f26/transformed/jetified-play-services-cast-framework-21.4.0/AndroidManifest.xml:14:5-16:15
+20        <package android:name="com.google.android.gms.policy_cast_dynamite" />
+20-->[com.google.android.gms:play-services-cast-framework:21.4.0] /Users/nickmaukan/.gradle/caches/transforms-4/dd8a82fd64316e4157c4f1e041062f26/transformed/jetified-play-services-cast-framework-21.4.0/AndroidManifest.xml:15:9-79
+20-->[com.google.android.gms:play-services-cast-framework:21.4.0] /Users/nickmaukan/.gradle/caches/transforms-4/dd8a82fd64316e4157c4f1e041062f26/transformed/jetified-play-services-cast-framework-21.4.0/AndroidManifest.xml:15:18-76
+21    </queries>
+22
+23    <permission
+23-->[androidx.core:core:1.13.1] /Users/nickmaukan/.gradle/caches/transforms-4/c43d13ca102b73e15c4b45d8c7b3ca6f/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+24        android:name="com.streamcast.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.13.1] /Users/nickmaukan/.gradle/caches/transforms-4/c43d13ca102b73e15c4b45d8c7b3ca6f/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.13.1] /Users/nickmaukan/.gradle/caches/transforms-4/c43d13ca102b73e15c4b45d8c7b3ca6f/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.streamcast.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.13.1] /Users/nickmaukan/.gradle/caches/transforms-4/c43d13ca102b73e15c4b45d8c7b3ca6f/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.13.1] /Users/nickmaukan/.gradle/caches/transforms-4/c43d13ca102b73e15c4b45d8c7b3ca6f/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:12:5-35:19
+30        android:name="com.streamcast.app.StreamCastApp"
+30-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:13:9-38
+31        android:allowBackup="true"
+31-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:14:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.13.1] /Users/nickmaukan/.gradle/caches/transforms-4/c43d13ca102b73e15c4b45d8c7b3ca6f/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:15:9-43
+36        android:label="StreamCast"
+36-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:16:9-35
+37        android:networkSecurityConfig="@xml/network_security_config"
+37-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:19:9-69
+38        android:theme="@style/Theme.StreamCast"
+38-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:17:9-48
+39        android:usesCleartextTraffic="true" >
+39-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:18:9-44
+40        <meta-data
+40-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:21:9-23:75
+41            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+41-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:22:13-93
+42            android:value="com.streamcast.app.cast.CastOptionsProvider" />
+42-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:23:13-72
+43
+44        <activity
+44-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:25:9-33:20
+45            android:name="com.streamcast.app.ui.main.MainActivity"
+45-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:26:13-49
+46            android:configChanges="orientation|screenSize"
+46-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:28:13-59
+47            android:exported="true" >
+47-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:27:13-36
+48            <intent-filter>
+48-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:29:13-32:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:30:17-69
+49-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:30:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:31:17-77
+51-->/Users/nickmaukan/.openclaw/workspace/StreamCast/app/src/main/AndroidManifest.xml:31:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <receiver
+55-->[com.google.android.gms:play-services-cast-framework:21.4.0] /Users/nickmaukan/.gradle/caches/transforms-4/dd8a82fd64316e4157c4f1e041062f26/transformed/jetified-play-services-cast-framework-21.4.0/AndroidManifest.xml:19:9-21:40
+56            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+56-->[com.google.android.gms:play-services-cast-framework:21.4.0] /Users/nickmaukan/.gradle/caches/transforms-4/dd8a82fd64316e4157c4f1e041062f26/transformed/jetified-play-services-cast-framework-21.4.0/AndroidManifest.xml:20:13-91
+57            android:exported="false" />
+57-->[com.google.android.gms:play-services-cast-framework:21.4.0] /Users/nickmaukan/.gradle/caches/transforms-4/dd8a82fd64316e4157c4f1e041062f26/transformed/jetified-play-services-cast-framework-21.4.0/AndroidManifest.xml:21:13-37
+58
+59        <service
+59-->[com.google.android.gms:play-services-cast-framework:21.4.0] /Users/nickmaukan/.gradle/caches/transforms-4/dd8a82fd64316e4157c4f1e041062f26/transformed/jetified-play-services-cast-framework-21.4.0/AndroidManifest.xml:23:9-25:40
+60            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+60-->[com.google.android.gms:play-services-cast-framework:21.4.0] /Users/nickmaukan/.gradle/caches/transforms-4/dd8a82fd64316e4157c4f1e041062f26/transformed/jetified-play-services-cast-framework-21.4.0/AndroidManifest.xml:24:13-85
+61            android:exported="false" />
+61-->[com.google.android.gms:play-services-cast-framework:21.4.0] /Users/nickmaukan/.gradle/caches/transforms-4/dd8a82fd64316e4157c4f1e041062f26/transformed/jetified-play-services-cast-framework-21.4.0/AndroidManifest.xml:25:13-37
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:18.0.1] /Users/nickmaukan/.gradle/caches/transforms-4/ff30ae86ed31e910ef3ff315cc75a50a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:18.0.1] /Users/nickmaukan/.gradle/caches/transforms-4/ff30ae86ed31e910ef3ff315cc75a50a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:18.0.1] /Users/nickmaukan/.gradle/caches/transforms-4/ff30ae86ed31e910ef3ff315cc75a50a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:18.0.1] /Users/nickmaukan/.gradle/caches/transforms-4/ff30ae86ed31e910ef3ff315cc75a50a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nickmaukan/.gradle/caches/transforms-4/1664a95c76fdf2d490c75e97b8254da8/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nickmaukan/.gradle/caches/transforms-4/1664a95c76fdf2d490c75e97b8254da8/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nickmaukan/.gradle/caches/transforms-4/1664a95c76fdf2d490c75e97b8254da8/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.3.0] /Users/nickmaukan/.gradle/caches/transforms-4/272ccb16185675123abe48f9bcbc6d7a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.3.0] /Users/nickmaukan/.gradle/caches/transforms-4/272ccb16185675123abe48f9bcbc6d7a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+74            android:authorities="com.streamcast.app.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.3.0] /Users/nickmaukan/.gradle/caches/transforms-4/272ccb16185675123abe48f9bcbc6d7a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.3.0] /Users/nickmaukan/.gradle/caches/transforms-4/272ccb16185675123abe48f9bcbc6d7a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.3.0] /Users/nickmaukan/.gradle/caches/transforms-4/272ccb16185675123abe48f9bcbc6d7a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/nickmaukan/.gradle/caches/transforms-4/272ccb16185675123abe48f9bcbc6d7a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/nickmaukan/.gradle/caches/transforms-4/272ccb16185675123abe48f9bcbc6d7a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.8.1] /Users/nickmaukan/.gradle/caches/transforms-4/7b515887f75564ad7742c3e9e401b644/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.8.1] /Users/nickmaukan/.gradle/caches/transforms-4/7b515887f75564ad7742c3e9e401b644/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:30:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.8.1] /Users/nickmaukan/.gradle/caches/transforms-4/7b515887f75564ad7742c3e9e401b644/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+84                android:value="androidx.startup" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+85        </provider>
+86
+87        <service
+87-->[androidx.room:room-runtime:2.6.1] /Users/nickmaukan/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+88            android:name="androidx.room.MultiInstanceInvalidationService"
+88-->[androidx.room:room-runtime:2.6.1] /Users/nickmaukan/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+89            android:directBootAware="true"
+89-->[androidx.room:room-runtime:2.6.1] /Users/nickmaukan/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+90            android:exported="false" />
+90-->[androidx.room:room-runtime:2.6.1] /Users/nickmaukan/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/nickmaukan/.gradle/caches/transforms-4/4334e56941492484bdc58404b4212140/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111
+112        <service
+112-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/6c45fe707cbcb44f7b1ad3886a4f03ad/transformed/jetified-transport-backend-cct-3.1.3/AndroidManifest.xml:29:9-35:19
+113            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+113-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/6c45fe707cbcb44f7b1ad3886a4f03ad/transformed/jetified-transport-backend-cct-3.1.3/AndroidManifest.xml:30:13-103
+114            android:exported="false" >
+114-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/6c45fe707cbcb44f7b1ad3886a4f03ad/transformed/jetified-transport-backend-cct-3.1.3/AndroidManifest.xml:31:13-37
+115            <meta-data
+115-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/6c45fe707cbcb44f7b1ad3886a4f03ad/transformed/jetified-transport-backend-cct-3.1.3/AndroidManifest.xml:32:13-34:39
+116                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+116-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/6c45fe707cbcb44f7b1ad3886a4f03ad/transformed/jetified-transport-backend-cct-3.1.3/AndroidManifest.xml:33:17-94
+117                android:value="cct" />
+117-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/6c45fe707cbcb44f7b1ad3886a4f03ad/transformed/jetified-transport-backend-cct-3.1.3/AndroidManifest.xml:34:17-36
+118        </service>
+119        <service
+119-->[com.google.android.datatransport:transport-runtime:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/9dfb98eef1b1b7be46465d3f43ba71d1/transformed/jetified-transport-runtime-3.1.3/AndroidManifest.xml:26:9-30:19
+120            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+120-->[com.google.android.datatransport:transport-runtime:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/9dfb98eef1b1b7be46465d3f43ba71d1/transformed/jetified-transport-runtime-3.1.3/AndroidManifest.xml:27:13-117
+121            android:exported="false"
+121-->[com.google.android.datatransport:transport-runtime:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/9dfb98eef1b1b7be46465d3f43ba71d1/transformed/jetified-transport-runtime-3.1.3/AndroidManifest.xml:28:13-37
+122            android:permission="android.permission.BIND_JOB_SERVICE" >
+122-->[com.google.android.datatransport:transport-runtime:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/9dfb98eef1b1b7be46465d3f43ba71d1/transformed/jetified-transport-runtime-3.1.3/AndroidManifest.xml:29:13-69
+123        </service>
+124
+125        <receiver
+125-->[com.google.android.datatransport:transport-runtime:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/9dfb98eef1b1b7be46465d3f43ba71d1/transformed/jetified-transport-runtime-3.1.3/AndroidManifest.xml:32:9-34:40
+126            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+126-->[com.google.android.datatransport:transport-runtime:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/9dfb98eef1b1b7be46465d3f43ba71d1/transformed/jetified-transport-runtime-3.1.3/AndroidManifest.xml:33:13-132
+127            android:exported="false" />
+127-->[com.google.android.datatransport:transport-runtime:3.1.3] /Users/nickmaukan/.gradle/caches/transforms-4/9dfb98eef1b1b7be46465d3f43ba71d1/transformed/jetified-transport-runtime-3.1.3/AndroidManifest.xml:34:13-37
+128    </application>
+129
+130</manifest>

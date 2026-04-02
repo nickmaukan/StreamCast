@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#121212</color>
+    <color name="black">#000000</color>
+    <color name="error">#F44336</color>
+    <color name="on_background">#FFFFFF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="on_surface_variant">#B3B3B3</color>
+    <color name="primary">#6200EE</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#018786</color>
+    <color name="success">#4CAF50</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="surface_variant">#2D2D2D</color>
+    <color name="video_badge_hd">#9C27B0</color>
+    <color name="video_badge_hls">#4CAF50</color>
+    <color name="video_badge_live">#F44336</color>
+    <color name="video_badge_sd">#FF9800</color>
+    <color name="warning">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">StreamCast</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_cast">Cast</string>
+    <string name="cd_forward">Forward</string>
+    <string name="cd_home">Home</string>
+    <string name="cd_menu">Menu</string>
+    <string name="cd_refresh">Refresh</string>
+    <string name="delete">Delete</string>
+    <string name="error_cast">Error connecting to device</string>
+    <string name="error_load">Error loading page</string>
+    <string name="error_network">No internet connection</string>
+    <string name="favorite">Favorite</string>
+    <string name="history_clear">Clear History</string>
+    <string name="history_empty">No browsing history</string>
+    <string name="mute">Mute</string>
+    <string name="nav_browser">Browser</string>
+    <string name="nav_history">History</string>
+    <string name="no_devices">No devices found</string>
+    <string name="no_videos">No videos found on this page</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="scanning_devices">Scanning for devices…</string>
+    <string name="seek_back">Seek Back</string>
+    <string name="seek_forward">Seek Forward</string>
+    <string name="select_device">Select Device</string>
+    <string name="send_video">Send Video</string>
+    <string name="stop">Stop</string>
+    <string name="tap_to_cast">Tap to cast</string>
+    <string name="url_hint">Enter URL</string>
+    <string name="videos_detected">%d video(s) detected</string>
+    <style name="Theme.StreamCast" parent="Theme.Material3.Dark.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+
+        
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+
+        
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

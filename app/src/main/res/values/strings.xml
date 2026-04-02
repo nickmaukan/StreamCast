@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StreamCast</string>
+
+    <!-- Navigation -->
+    <string name="nav_browser">Browser</string>
+    <string name="nav_history">History</string>
+
+    <!-- Browser -->
+    <string name="url_hint">Enter URL</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_forward">Forward</string>
+    <string name="cd_refresh">Refresh</string>
+    <string name="cd_home">Home</string>
+    <string name="cd_menu">Menu</string>
+    <string name="cd_cast">Cast</string>
+
+    <!-- Cast -->
+    <string name="send_video">Send Video</string>
+    <string name="select_device">Select Device</string>
+    <string name="scanning_devices">Scanning for devices…</string>
+    <string name="no_devices">No devices found</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="mute">Mute</string>
+    <string name="seek_back">Seek Back</string>
+    <string name="seek_forward">Seek Forward</string>
+
+    <!-- Videos -->
+    <string name="videos_detected">%d video(s) detected</string>
+    <string name="no_videos">No videos found on this page</string>
+    <string name="tap_to_cast">Tap to cast</string>
+
+    <!-- History -->
+    <string name="history_empty">No browsing history</string>
+    <string name="history_clear">Clear History</string>
+    <string name="favorite">Favorite</string>
+    <string name="delete">Delete</string>
+
+    <!-- Errors -->
+    <string name="error_cast">Error connecting to device</string>
+    <string name="error_load">Error loading page</string>
+    <string name="error_network">No internet connection</string>
+</resources>
